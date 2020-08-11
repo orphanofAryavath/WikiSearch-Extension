@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name":"Wiki Please",
+    "version": "1.0",
+    "description": "Search Wikipedia on the go!",
+    "icons":{
+        "128":"Icon-128.png",
+        "48":"Icon-48.png",
+        "16":"Icon-16.png"
+    },
+    "background":{
+        "scripts":["eventPage.js"],
+        "persistent":false
+    },
+    "permissions":[
+        "tabs",
+        "contextMenus"
+    ]
+}
